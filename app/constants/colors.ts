@@ -1,4 +1,10 @@
+/**
+ * Auxiliary type to use on component props.
+ * Must declare every single css class that is not default on tailwindcss
+ */
 export type Colors = {
+    primary: 'primary'
+    secondary: 'secondary'
     inherit: 'inherit'
     current: 'currentColor'
     transparent: 'transparent'
