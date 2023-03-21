@@ -1,5 +1,6 @@
 export type Setup = {
     notebook: SetupComponent;
+    desktop: SetupComponent;
     monitor: SetupComponent[]
     microphone: SetupComponent,
     headphone: SetupComponent[],
@@ -7,12 +8,15 @@ export type Setup = {
     mouse: SetupComponent,
     chair: SetupComponent,
     webcam: SetupComponent,
-    extras: SetupComponent[]
+    eReader: SetupComponent,
+    drawingTable: SetupComponent,
+    lightBar: SetupComponent,
+    usbHub: SetupComponent,
 }
 
-type SetupComponent = {
+export type SetupComponent = {
     specs?: string;
-    description: string;
-    resume: string;
+    description?: string;
+    resume?: string;
     link?: string;
 }
