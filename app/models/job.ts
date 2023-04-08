@@ -4,5 +4,5 @@ export type Job = {
     company: string;
     done: string[];
     techs: string[];
-    knowledges: string[];
+    knowledge: string[];
 } & Period;

@@ -1,6 +1,5 @@
 import {ReactNode} from "react";
-import classNames from "classnames";
-import {ScreenSize, Padding, Margin} from "../props/tailwind";
+import {ScreenSize} from "../props/tailwind";
 
 interface WrapperProps {
     children: ReactNode;

@@ -94,7 +94,7 @@ const SetupComponentsGrid = ({children}: {children: ReactNode}) => (
 
 const SetupComponentCard = ({name, component}: {name: string, component: SetupComponent }) => (
     <>
-        {component?.description && <div className={"w-full border-[1px] border-white bg-neutral-800 box-shadow shadow-inner p-4"}>
+        {component?.description && <div className={"w-full border-[1px] border-white hover:border-secondary bg-neutral-800 box-shadow shadow-inner p-4"}>
             <h4 className='text-lg font-medium'> {name} {component.description}</h4>
             {component.specs && <p className='mt-1 text-xs text-gray-500'>{component.specs}</p>}
             {component.resume && <p className='mt-3 text-sm font-thin text-gray-400'>{component.resume}</p>}

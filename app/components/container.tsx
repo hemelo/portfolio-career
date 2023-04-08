@@ -1,6 +1,6 @@
 import classnames from "classnames";
 import {ReactNode} from "react";
-import {Margin, Padding, ScreenSize, WithColors} from "../props/tailwind";
+import {ScreenSize, WithColors} from "../props/tailwind";
 
 interface ContainerProps {
     children: ReactNode;
